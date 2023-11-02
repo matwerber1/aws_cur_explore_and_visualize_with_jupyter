@@ -1,0 +1,18 @@
+version: "3.8"
+services:
+  jupyter:
+    image: jupyter/base-notebook:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./data:/home/jovyan/work
+      - ~/.aws:/home/jovyan/.aws # Mount AWS credentials directory so we don't need to hardcode credentials into notebook or container
+    ports:
+      - "8888:8888"
+      - "8051:8051"
+    user: root
+    environment:
+      - GRANT_SUDO=yes
+      - JUPYTER_ENABLE_LAB=no
+    command: start-notebook.sh --NotebookApp.token=''

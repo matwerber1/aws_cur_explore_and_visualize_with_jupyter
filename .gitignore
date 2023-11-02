@@ -1,0 +1,8 @@
+.venv/
+python -m venv .venv
+
+data/cache_directory/
+data/s3/
+data/.ipynb_checkpoints/
+data/cache_directory/
+__pycache__/
