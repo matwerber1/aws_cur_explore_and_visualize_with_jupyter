@@ -1,6 +1,6 @@
 # Visual and SQL Exploration of AWS Cost and Usage Report (CUR) with Jupyter Notebooks
 
-Rough draft, docs are sparse. But, it works!
+Rough draft, docs are sparse. But, it works! The helper functions in `./data/notebook-tools` could definitely be cleaned up, pardon the dust.
 
 ## Prerequisites
 
