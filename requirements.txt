@@ -1,5 +1,4 @@
 ipykernel==6.25.2
-boto3==1.28.67
 sqlparse==0.4.4
 plotly==5.17.0
 dash==2.14.0
