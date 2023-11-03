@@ -6,3 +6,5 @@ data/s3/
 data/.ipynb_checkpoints/
 data/cache_directory/
 __pycache__/
+
+.ipynb_checkpoints
